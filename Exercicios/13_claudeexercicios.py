@@ -51,33 +51,65 @@ for y,z in NomesNotas.items():
 # inverta cada palavra separadamente sem usar [::-1]
 # direto na string. Resultado esperado: "olleh dlrow".
 
+#%% 1
 
 string = 'hello world'
-stringsplit = string.split()
-lista = []
+split = string.split()
+nome = ''
+nome2 = ''
 
-for i in string: 
-    lista = i + lista
+for i in split[0]: 
+    nome = i + nome
 
-print (lista)
+for i in split[1]: 
+    nome2 = i + nome2
+
+print (nome, '', nome2)
+
+#%% 2
+
+# 1. pede uma frase pro usuário
+frase = input('insira uma frase: ')
+
+# 2. divide a frase em palavras separadas
+palavras = frase.split(' ')
+
+# 3. cria uma lista vazia pra guardar as palavras invertidas
+palavras_invertidas = []
+
+# 4. percorre cada palavra da lista
+for palavra in palavras:
+
+    # 5. inverte a palavra e transforma em string de volta
+    invertida = ''.join(reversed(palavra))
+
+    # 6. adiciona a palavra invertida na lista
+    palavras_invertidas.append(invertida)
+
+# 7. junta tudo com espaço e printa
+print(' '.join(palavras_invertidas))
 
 
 #%% 10. Faça uma matriz 3x3 (lista de listas) preenchida pelo usuário
 #e exiba a soma de cada linha, cada coluna e as duas diagonais.
 
 
-Dicionario = {}
-a = []
-b = []
-c = []
+lista = []
 
 for i in range (1,4): 
-    a = [a] + [input ('insira numeros')]
-    b = [b] + [input ('insura numeros')]
-    c = [c] + [input ('insira numeros')]
+   A = input ('insira 3 numeros para a coluna a')
+   B = input ('insira 3 numeros para a coluna b')
+   C = input ('insira 3 numeros para a coluna c')
+
+   A = A.split(' ')
+   B = B.split(' ')
+   C = C.split(' ')
+
+   lista = lista.append(A)
+   lista = lista.append(B)
+   lista = lista.append(C)
+
+print (lista)   
 
 
-print (a)
-
-
-
+# ??????????????????????????
