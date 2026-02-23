@@ -37,6 +37,8 @@ dados = dict()
 chaves = lines [0].strip('\n').split(';')
 
 for c in chaves: 
+
+    
     dados [c] = []
 
 #inserindo os valores

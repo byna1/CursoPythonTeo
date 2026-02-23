@@ -1,0 +1,13 @@
+;cep;logradouro;complemento;unidade;bairro;localidade;uf;estado;regiao;ibge;gia;ddd;siafi;erro
+0;14400-760;Rua Floriano Peixoto;;;Centro;Franca;SP;São Paulo;Sudeste;3516200;3104;16;6425;
+1;59151-590;Rua Capitão Aviador Heraldo Cunha de Martinho;;;Nova Parnamirim;Parnamirim;RN;Rio Grande do Norte;Nordeste;2403251;;84;1779;
+2;01001-000;Praça da Sé;lado ímpar;;Sé;São Paulo;SP;São Paulo;Sudeste;3550308;1004;11;7107;
+3;20040-010;Avenida Presidente Vargas;até 309 - lado ímpar;;Centro;Rio de Janeiro;RJ;Rio de Janeiro;Sudeste;3304557;;21;6001;
+4;30140-110;Rua Santa Rita Durão;até 249/250;;Funcionários;Belo Horizonte;MG;Minas Gerais;Sudeste;3106200;;31;4123;
+5;70040-010;Quadra SBN Quadra 1;;;Asa Norte;Brasília;DF;Distrito Federal;Centro-Oeste;5300108;;61;9701;
+6;;;;;;;;;;;;;;true
+7;80010-000;Rua José Loureiro;;;Centro;Curitiba;PR;Paraná;Sul;4106902;;41;7535;
+8;90010-150;Praça da Alfândega;;;Centro Histórico;Porto Alegre;RS;Rio Grande do Sul;Sul;4314902;;51;8801;
+9;50010-000;Avenida Guararapes;;;Santo Antônio;Recife;PE;Pernambuco;Nordeste;2611606;;81;2531;
+10;69005-070;Avenida Floriano Peixoto;;;Centro;Manaus;AM;Amazonas;Norte;1302603;;92;0255;
+11;66017-000;Avenida Presidente Vargas;de 381/382 ao fim;;Campina;Belém;PA;Pará;Norte;1501402;;91;0427;
